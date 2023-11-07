@@ -203,23 +203,23 @@
 }
 
 .card__image-filter-sepia {
-  
+  filter: brightness(200%);
 }
 
 .card__image-filter-hue-rotate {
-  
+  filter: brightness(200%);
 }
 
 .card__image-filter-opacity {
- 
+  filter: brightness(200%);
 }
 
 .card__image-filter-grayscale {
-  
+  filter: brightness(200%);
 }
 
 .card__image-filter-invert {
- 
+  filter: brightness(200%);
 }
 
 
@@ -245,7 +245,6 @@
   .card__text-element {
     text-shadow: none;
     -webkit-text-stroke: 1px var(--color-text-stroke);
-    text-stroke: 1px var(--color-text-stroke);
   }
 }
 
