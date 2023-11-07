@@ -136,11 +136,9 @@
 
 .theme-menu__button:focus::after {
   width: 100%;
-}
-
-.theme-menu__button:focus::after {
   opacity: 0.6;
 }
+
 
 .theme-menu__button:active {
   opacity: 0.6;
@@ -148,9 +146,6 @@
 
 .theme-menu__button:focus-visible::after {
   width: 100%;
-}
-
-.theme-menu__button:focus-visible::after {
   opacity: 0.6;
 }
 
