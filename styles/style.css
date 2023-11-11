@@ -24,11 +24,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-variation-settings: "wdth" var(--wdth-main);
-}
-
-.page::before {
   content: "";
-  position: fixed;
   top: 0;
   left: 0;
   z-index: -1;
@@ -54,26 +50,26 @@
   background-color: var(--themes-background);
 }
 
-.header__link, .header__title {
-  color: var(--themes-main-color);
-  font-family: var(--accent-font-family);
-  font-style: var(--wdth-main);
-  text-transform: uppercase;
-}
-
 .header__link {
   margin: 0 auto;
   margin-bottom: 20px;
   padding-top: 136px;
+  color: var(--themes-main-color);
+  font-family: var(--accent-font-family);
   font-size: clamp(49px, 5vw, 65px);
+  font-style: var(--wdth-main);
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .header__title {
   display: block;
   margin-bottom: 25px;
+  color: var(--themes-main-color);
+  font-family: var(--accent-font-family);
   font-size: clamp(14px, 2vw, 23px);
-
+  font-style: var(--wdth-main);
+  text-transform: uppercase;
 }
 
 .theme-menu {
@@ -174,7 +170,7 @@
   color: var(--themes-main-color);
   font-family: var(--main-font-family);
   font-size: 18px;
-  font-variation-settings: "wght" var(--wdth-title, 700);
+  font-variation-settings: "wght" var(--wdth-title);
 }
 
 .card__wrapper {
@@ -193,28 +189,28 @@
 
 
 
-.card__image-filter-brightness {
-  filter: brightness(200%);
+.card__image-filter-saturate {
+  filter: saturate(250%);
 }
 
 .card__image-filter-sepia {
-  filter: brightness(200%);
+  filter: sepia(70%);
 }
 
 .card__image-filter-hue-rotate {
-  filter: brightness(200%);
+  filter: invert(100%);
 }
 
-.card__image-filter-opacity {
-  filter: brightness(200%);
+.card__image-filter-blur {
+  filter: blur(20px);
 }
 
-.card__image-filter-grayscale {
-  filter: brightness(200%);
+.card__image-filter-multi {
+  filter: contrast(75%) hue-rotate(35deg) saturate(130%);
 }
 
-.card__image-filter-invert {
-  filter: brightness(200%);
+.card__image-filter-1 {
+  filter: hue-rotate(90deg) grayscale(0.2);
 }
 
 
@@ -233,14 +229,10 @@
   mix-blend-mode: hard-light;
 }
 
-@supports (
-  (text-stroke: 1px var(--color-text-stroke)) or
-    (-webkit-text-stroke: 1px var(--color-text-stroke))
-) {
-  .card__text-element {
-    text-shadow: none;
-    -webkit-text-stroke: 1px var(--color-text-stroke);
-  }
+
+
+.not {
+  text-transform: none;
 }
 
 .card__block-text {
@@ -297,7 +289,7 @@ p:last-child {
   border: 2px solid var(--themes-main-color);
   padding: 10px 17px;
   overflow: hidden;
-  color: var(--color-text-stroke);
+  color: var(--color-text);
   background-color: var(--themes-background);
   transition: box-shadow 0.3s ease;
   cursor: pointer;

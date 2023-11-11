@@ -9,6 +9,7 @@
   --themes-main-color: #000;
   --themes-background: #fff;
   --color-text-stroke: #fff;
+  --color-text: #fff;
   --wdth-title: 700;
   --wdth-main: 400;
   --background-image-themes: repeating-linear-gradient(transparent, transparent, #d3d3d3 2px, #d3d3d3 4px),
@@ -23,7 +24,8 @@
   --currentColor: #00cc14;
   --themes-main-color: #00cc14;
   --themes-background: #000000;
-  --color-text-stroke: #00cc14;
+  --color-text-stroke: #000000;
+  --color-text: #00cc14;
   --wdth-title: 785;
   --wdth-main: 465;
   --background-image-themes: repeating-linear-gradient(transparent, transparent, #000 2px, #000 4px),
@@ -36,7 +38,8 @@
     --currentColor: #00cc14;
     --themes-main-color: #00cc14;
     --themes-background: #000000;
-    --color-text-stroke: #00cc14;
+    --color-text-stroke: #000000;
+    --color-text: #00cc14;
     --wdth-title: 785;
     --wdth-main: 465;
     --background-image-themes: repeating-linear-gradient(transparent, transparent, #000 2px, #000 4px),

@@ -8,6 +8,7 @@
     --color-text-stroke: #fff;
     --wdth-title: 700;
     --wdth-main: 400;
+    --color-text: #fff;
     --background-image-themes: repeating-linear-gradient( transparent, transparent,#d3d3d3 2px,#d3d3d3 4px),
       repeating-linear-gradient(90deg, transparent, transparent,#d3d3d3 2px,#d3d3d3 4px),
       linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
