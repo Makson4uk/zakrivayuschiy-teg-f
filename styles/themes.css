@@ -12,9 +12,9 @@
   --color-text: #fff;
   --wdth-title: 700;
   --wdth-main: 400;
-  --background-image-themes: repeating-linear-gradient(transparent, transparent, #d3d3d3 2px, #d3d3d3 4px),
-    repeating-linear-gradient(90deg, transparent, transparent, #d3d3d3 2px, #d3d3d3 4px),
-    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  --background-image-themes: repeating-linear-gradient(transparent 0px, transparent 2px, #d3d3d3 2px, #d3d3d3 4px),
+  repeating-linear-gradient(to left, transparent 0px, transparent 2px, #d3d3d3 2px, #d3d3d3 4px),
+  repeating-linear-gradient(180deg, #E7E7E7 0.01%, #1A1A1A 100%);
 }
 
 
@@ -28,9 +28,9 @@
   --color-text: #00cc14;
   --wdth-title: 785;
   --wdth-main: 465;
-  --background-image-themes: repeating-linear-gradient(transparent, transparent, #000 2px, #000 4px),
-    repeating-linear-gradient(90deg, transparent, transparent, #000 2px, #000 4px),
-    linear-gradient(to bottom, #007f0c, #004306);
+  --background-image-themes: repeating-linear-gradient(transparent 0px, transparent 2px, #000 2px, #000 4px),
+  repeating-linear-gradient(to left, transparent 0px, transparent 2px, #000 2px, #000 4px),
+  repeating-linear-gradient(180deg, #007F0C 0.01%, #004306 100%);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -42,8 +42,8 @@
     --color-text: #00cc14;
     --wdth-title: 785;
     --wdth-main: 465;
-    --background-image-themes: repeating-linear-gradient(transparent, transparent, #000 2px, #000 4px),
-      repeating-linear-gradient(90deg, transparent, transparent, #000 2px, #000 4px),
-      linear-gradient(to bottom, #007f0c, #004306);
+    --background-image-themes: repeating-linear-gradient(transparent 0px, transparent 2px, #000 2px, #000 4px),
+    repeating-linear-gradient(to left, transparent 0px, transparent 2px, #000 2px, #000 4px),
+    repeating-linear-gradient(180deg, #007F0C 0.01%, #004306 100%);  
   }
 }
